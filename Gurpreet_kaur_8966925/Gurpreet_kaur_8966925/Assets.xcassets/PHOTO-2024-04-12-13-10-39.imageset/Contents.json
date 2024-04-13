@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "PHOTO-2024-04-12-13-10-39.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

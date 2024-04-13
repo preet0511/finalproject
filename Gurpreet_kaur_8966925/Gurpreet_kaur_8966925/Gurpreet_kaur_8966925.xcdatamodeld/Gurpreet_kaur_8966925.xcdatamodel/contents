@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DirectionsData" representedClassName="DirectionsData" syncable="YES" codeGenerationType="class">
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="dataType" optional="YES" attributeType="String"/>
+        <attribute name="distance" optional="YES" attributeType="String"/>
+        <attribute name="endPoint" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="method" optional="YES" attributeType="String"/>
+        <attribute name="startPoint" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NewsData" representedClassName="NewsData" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="dataType" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeatherCoreData" representedClassName="WeatherCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="dataType" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="humidity" optional="YES" attributeType="String"/>
+        <attribute name="temp" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="wind" optional="YES" attributeType="String"/>
+    </entity>
+</model>

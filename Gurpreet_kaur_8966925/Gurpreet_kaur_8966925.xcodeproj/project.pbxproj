@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD156C3F2BC22E780022BA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD156C3E2BC22E780022BA48 /* AppDelegate.swift */; };
+		DD156C412BC22E780022BA48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD156C402BC22E780022BA48 /* SceneDelegate.swift */; };
+		DD156C432BC22E780022BA48 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD156C422BC22E780022BA48 /* Main.swift */; };
+		DD156C462BC22E780022BA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD156C442BC22E780022BA48 /* Main.storyboard */; };
+		DD156C492BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD156C472BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodeld */; };
+		DD156C4B2BC22E790022BA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD156C4A2BC22E790022BA48 /* Assets.xcassets */; };
+		DD156C4E2BC22E790022BA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD156C4C2BC22E790022BA48 /* LaunchScreen.storyboard */; };
+		DE1D2FC72BC2344600ACFD5C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FC62BC2344600ACFD5C /* News.swift */; };
+		DE1D2FC92BC2348300ACFD5C /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FC82BC2348300ACFD5C /* Map.swift */; };
+		DE1D2FCB2BC234A600ACFD5C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FCA2BC234A600ACFD5C /* Weather.swift */; };
+		DE1D2FCD2BC234C500ACFD5C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FCC2BC234C500ACFD5C /* History.swift */; };
+		DE1D2FCF2BC2510400ACFD5C /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FCE2BC2510400ACFD5C /* NewsTableViewCell.swift */; };
+		DE1D2FD12BC2510E00ACFD5C /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FD02BC2510E00ACFD5C /* WeatherTableViewCell.swift */; };
+		DE1D2FD32BC2511A00ACFD5C /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FD22BC2511A00ACFD5C /* MapTableViewCell.swift */; };
+		DE1D2FD52BC2562100ACFD5C /* LocalNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1D2FD42BC2562100ACFD5C /* LocalNewsTableViewCell.swift */; };
+		DEF43B982BC30E400030A3A0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF43B972BC30E400030A3A0 /* WeatherModel.swift */; };
+		DEF43B9A2BC315190030A3A0 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF43B992BC315190030A3A0 /* NewsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD156C3B2BC22E780022BA48 /* Gurpreet_kaur_8966925.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gurpreet_kaur_8966925.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD156C3E2BC22E780022BA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD156C402BC22E780022BA48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD156C422BC22E780022BA48 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		DD156C452BC22E780022BA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD156C482BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gurpreet_kaur_8966925.xcdatamodel; sourceTree = "<group>"; };
+		DD156C4A2BC22E790022BA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD156C4D2BC22E790022BA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD156C4F2BC22E790022BA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1D2FC62BC2344600ACFD5C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		DE1D2FC82BC2348300ACFD5C /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		DE1D2FCA2BC234A600ACFD5C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		DE1D2FCC2BC234C500ACFD5C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		DE1D2FCE2BC2510400ACFD5C /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		DE1D2FD02BC2510E00ACFD5C /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		DE1D2FD22BC2511A00ACFD5C /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		DE1D2FD42BC2562100ACFD5C /* LocalNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DEF43B972BC30E400030A3A0 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		DEF43B992BC315190030A3A0 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD156C382BC22E780022BA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD156C322BC22E780022BA48 = {
+			isa = PBXGroup;
+			children = (
+				DD156C3D2BC22E780022BA48 /* Gurpreet_kaur_8966925 */,
+				DD156C3C2BC22E780022BA48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD156C3C2BC22E780022BA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD156C3B2BC22E780022BA48 /* Gurpreet_kaur_8966925.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD156C3D2BC22E780022BA48 /* Gurpreet_kaur_8966925 */ = {
+			isa = PBXGroup;
+			children = (
+				DD156C3E2BC22E780022BA48 /* AppDelegate.swift */,
+				DD156C402BC22E780022BA48 /* SceneDelegate.swift */,
+				DD156C422BC22E780022BA48 /* Main.swift */,
+				DEF43B992BC315190030A3A0 /* NewsModel.swift */,
+				DEF43B972BC30E400030A3A0 /* WeatherModel.swift */,
+				DE1D2FC62BC2344600ACFD5C /* News.swift */,
+				DE1D2FC82BC2348300ACFD5C /* Map.swift */,
+				DE1D2FCA2BC234A600ACFD5C /* Weather.swift */,
+				DE1D2FCC2BC234C500ACFD5C /* History.swift */,
+				DE1D2FCE2BC2510400ACFD5C /* NewsTableViewCell.swift */,
+				DE1D2FD42BC2562100ACFD5C /* LocalNewsTableViewCell.swift */,
+				DE1D2FD02BC2510E00ACFD5C /* WeatherTableViewCell.swift */,
+				DE1D2FD22BC2511A00ACFD5C /* MapTableViewCell.swift */,
+				DD156C442BC22E780022BA48 /* Main.storyboard */,
+				DD156C4A2BC22E790022BA48 /* Assets.xcassets */,
+				DD156C4C2BC22E790022BA48 /* LaunchScreen.storyboard */,
+				DD156C4F2BC22E790022BA48 /* Info.plist */,
+				DD156C472BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodeld */,
+			);
+			path = Gurpreet_kaur_8966925;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD156C3A2BC22E780022BA48 /* Gurpreet_kaur_8966925 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD156C522BC22E790022BA48 /* Build configuration list for PBXNativeTarget "Gurpreet_kaur_8966925" */;
+			buildPhases = (
+				DD156C372BC22E780022BA48 /* Sources */,
+				DD156C382BC22E780022BA48 /* Frameworks */,
+				DD156C392BC22E780022BA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gurpreet_kaur_8966925;
+			productName = Hitesh_kumra_8966327;
+			productReference = DD156C3B2BC22E780022BA48 /* Gurpreet_kaur_8966925.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD156C332BC22E780022BA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DD156C3A2BC22E780022BA48 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DD156C362BC22E780022BA48 /* Build configuration list for PBXProject "Gurpreet_kaur_8966925" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD156C322BC22E780022BA48;
+			productRefGroup = DD156C3C2BC22E780022BA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD156C3A2BC22E780022BA48 /* Gurpreet_kaur_8966925 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD156C392BC22E780022BA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD156C4E2BC22E790022BA48 /* LaunchScreen.storyboard in Resources */,
+				DD156C4B2BC22E790022BA48 /* Assets.xcassets in Resources */,
+				DD156C462BC22E780022BA48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD156C372BC22E780022BA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF43B9A2BC315190030A3A0 /* NewsModel.swift in Sources */,
+				DE1D2FD12BC2510E00ACFD5C /* WeatherTableViewCell.swift in Sources */,
+				DD156C432BC22E780022BA48 /* Main.swift in Sources */,
+				DD156C3F2BC22E780022BA48 /* AppDelegate.swift in Sources */,
+				DE1D2FCD2BC234C500ACFD5C /* History.swift in Sources */,
+				DD156C412BC22E780022BA48 /* SceneDelegate.swift in Sources */,
+				DEF43B982BC30E400030A3A0 /* WeatherModel.swift in Sources */,
+				DE1D2FC72BC2344600ACFD5C /* News.swift in Sources */,
+				DE1D2FD32BC2511A00ACFD5C /* MapTableViewCell.swift in Sources */,
+				DE1D2FC92BC2348300ACFD5C /* Map.swift in Sources */,
+				DD156C492BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodeld in Sources */,
+				DE1D2FCB2BC234A600ACFD5C /* Weather.swift in Sources */,
+				DE1D2FD52BC2562100ACFD5C /* LocalNewsTableViewCell.swift in Sources */,
+				DE1D2FCF2BC2510400ACFD5C /* NewsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD156C442BC22E780022BA48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD156C452BC22E780022BA48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD156C4C2BC22E790022BA48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD156C4D2BC22E790022BA48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD156C502BC22E790022BA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD156C512BC22E790022BA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD156C532BC22E790022BA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gurpreet_kaur_8966925/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myfirstapp.Gurpreet_kaur_8966925;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD156C542BC22E790022BA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gurpreet_kaur_8966925/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myfirstapp.Gurpreet_kaur_8966925;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD156C362BC22E780022BA48 /* Build configuration list for PBXProject "Gurpreet_kaur_8966925" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD156C502BC22E790022BA48 /* Debug */,
+				DD156C512BC22E790022BA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD156C522BC22E790022BA48 /* Build configuration list for PBXNativeTarget "Gurpreet_kaur_8966925" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD156C532BC22E790022BA48 /* Debug */,
+				DD156C542BC22E790022BA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD156C472BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD156C482BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodel */,
+			);
+			currentVersion = DD156C482BC22E780022BA48 /* Gurpreet_kaur_8966925.xcdatamodel */;
+			path = Gurpreet_kaur_8966925.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD156C332BC22E780022BA48 /* Project object */;
+}

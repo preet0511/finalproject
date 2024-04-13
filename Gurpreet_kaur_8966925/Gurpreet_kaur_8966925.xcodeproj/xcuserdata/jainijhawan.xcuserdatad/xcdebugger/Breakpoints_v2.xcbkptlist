@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A1C1FE2-17CA-4BED-9661-0243CB97FEAB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CD9BAC5-2EBE-47CA-94A4-BF5F1CE8BB99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getCityName()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CD9BAC5-2EBE-47CA-94A4-BF5F1CE8BB99 - 2050ca197eb80eef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hitesh_kumra_8966327.Map.getCityName() -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "7CD9BAC5-2EBE-47CA-94A4-BF5F1CE8BB99 - 16e96e7089550a35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Hitesh_kumra_8966327.Map.getCityName() -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34226899-2A23-4B7F-9D89-D5D09C0BC20D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/News.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "saveNews(article:cityName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "34226899-2A23-4B7F-9D89-D5D09C0BC20D - 5f42af8e9fb2c051"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hitesh_kumra_8966327.News.saveNews(article: Hitesh_kumra_8966327.Article, cityName: Swift.String) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/News.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "34226899-2A23-4B7F-9D89-D5D09C0BC20D - 5f42af8e9fb2c076"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hitesh_kumra_8966327.News.saveNews(article: Hitesh_kumra_8966327.Article, cityName: Swift.String) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/News.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8130FD4F-0180-49A8-B37F-202C47AF3B0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/Weather.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "saveWeather(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "634FE6DE-F4FE-446F-9FD4-B3999ABEB5DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/Weather.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "saveWeather(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4558CCC5-0549-476C-BC0C-65646633F1F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getDirections(transportType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4558CCC5-0549-476C-BC0C-65646633F1F8 - 34e0cbccd81bc758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKDirectionsResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hitesh_kumra_8966327.Map.getDirections(transportType: __C.MKDirectionsTransportType) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "2176">
+               </Location>
+               <Location
+                  uuid = "4558CCC5-0549-476C-BC0C-65646633F1F8 - 34e0cbccd81bc758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.MKDirectionsResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hitesh_kumra_8966327.Map.getDirections(transportType: __C.MKDirectionsTransportType) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "1804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E09A422-786B-40E6-A05F-35376E837C17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hitesh_kumra_8966327/Map.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "lookupCity(cityName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E09A422-786B-40E6-A05F-35376E837C17 - 443daec7330f67a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hitesh_kumra_8966327.Map.lookupCity(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "5E09A422-786B-40E6-A05F-35376E837C17 - d94fecd8131ae7bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hitesh_kumra_8966327.Map.lookupCity(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Hitesh_kumra_8966327"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainijhawan/Downloads/Hitesh_kumra_8966327/Hitesh_kumra_8966327/Map.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
